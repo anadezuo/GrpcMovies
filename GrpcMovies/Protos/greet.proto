@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcMovies";
+
+package Greet;
+
+service Greeter {
+  rpc GetMovieByName (NameMovie) returns (Movies) {};
+}
+
+message NameMovie {
+  string name = 1;
+}
+
+message MoviesByYear {
+  int32 year = 1;
+  int32 movies = 2;
+}
+ 
+message Movies{
+  repeated MoviesByYear moviesByYear = 1 ;
+  int32 total = 2;
+}

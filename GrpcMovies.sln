@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcMovies", "GrpcMovies\GrpcMovies.csproj", "{268626CD-020E-4F4E-9501-BE7581A271F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcMoviesClient", "GrpcMoviesClient\GrpcMoviesClient.csproj", "{E6559484-55A8-4D16-BF17-89A6FC29B3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcMoviesTest", "GrpcMoviesTest\GrpcMoviesTest.csproj", "{9E084A90-3D5C-452A-B88A-47FF0F5D24D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{268626CD-020E-4F4E-9501-BE7581A271F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268626CD-020E-4F4E-9501-BE7581A271F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268626CD-020E-4F4E-9501-BE7581A271F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268626CD-020E-4F4E-9501-BE7581A271F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6559484-55A8-4D16-BF17-89A6FC29B3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6559484-55A8-4D16-BF17-89A6FC29B3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6559484-55A8-4D16-BF17-89A6FC29B3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6559484-55A8-4D16-BF17-89A6FC29B3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E084A90-3D5C-452A-B88A-47FF0F5D24D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E084A90-3D5C-452A-B88A-47FF0F5D24D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E084A90-3D5C-452A-B88A-47FF0F5D24D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E084A90-3D5C-452A-B88A-47FF0F5D24D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

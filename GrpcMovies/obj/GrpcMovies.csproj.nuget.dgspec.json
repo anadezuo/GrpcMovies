@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anadezuo/Documents/GitHub/Movies/GrpcMovies/GrpcMovies.csproj": {}
+  },
+  "projects": {
+    "/Users/anadezuo/Documents/GitHub/Movies/GrpcMovies/GrpcMovies.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anadezuo/Documents/GitHub/Movies/GrpcMovies/GrpcMovies.csproj",
+        "projectName": "GrpcMovies",
+        "projectPath": "/Users/anadezuo/Documents/GitHub/Movies/GrpcMovies/GrpcMovies.csproj",
+        "packagesPath": "/Users/anadezuo/.nuget/packages/",
+        "outputPath": "/Users/anadezuo/Documents/GitHub/Movies/GrpcMovies/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anadezuo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.23.1, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.24.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
